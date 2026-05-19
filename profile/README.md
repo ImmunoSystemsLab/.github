@@ -1,59 +1,100 @@
-# 🧬 ImmunoSystemsLab
+# 🧬 ImmunoSystemsLab Core
 
-**Open research lab focused on systems immunology, cancer biology, multi-omics integration, and T cell receptor (TCR) analysis.**  
-We develop reproducible computational frameworks to understand immune system behavior in health and disease.
+**ImmunoSystemsLab** is an open computational research ecosystem focused on systems immunology, T cell receptor (TCR) analysis, multi-omics integration, cancer immunology, and translational bioinformatics.
 
----
-
-## 🔬 Research Focus
-
-Our work lies at the intersection of immunology, computational biology, and data science, with emphasis on:
-
-- 🧫 **T Cell Receptor (TCR) analysis**  
-  Studying TCR diversity, clonality, and antigen specificity.
-
-- 🧬 **Systems Immunology**  
-  Modeling immune responses as dynamic, multi-layered systems.
-
-- 📊 **Multi-omics integration**  
-  Integrating transcriptomics, genomics, and proteomics data.
-
-- 🧪 **Cancer Immunology**  
-  Understanding tumor–immune interactions and immune escape mechanisms.
-
-- 🤖 **Computational Biology & Machine Learning**  
-  Developing reproducible pipelines for biological data analysis.
+This repository serves as the central hub connecting all projects within the organization into a unified scientific and computational framework.
 
 ---
 
-## 🧰 What We Build
+# 🌍 Vision
 
-We develop open and reproducible computational tools for:
+We aim to build scalable and reproducible computational frameworks that transform immune repertoire and multi-omics data into mechanistic biological insight.
 
-- TCR repertoire analysis pipelines  
-- Multi-omics data integration workflows  
-- Bioinformatics preprocessing and analysis tools  
-- Machine learning models for immunology  
-- Visualization tools for immune system data  
+We treat immune systems not as isolated measurements, but as dynamic systems encoding disease history, functional states, and antigen-driven evolution.
 
 ---
 
-## 📁 Repository Structure
+# 🧠 Core Scientific Concept
 
-To maintain clarity and reproducibility, our repositories are organized as:
+All projects in this organization contribute to a single systems-level pipeline:
 
-- `tcr-*` → TCR repertoire analysis tools  
-- `multiomics-*` → multi-omics integration pipelines  
-- `ml-*` → machine learning models for biological data  
-- `analysis-*` → data analysis workflows and scripts  
-- `notebooks/` → exploratory analysis and figures  
-- `utils/` → shared utility functions  
+Raw Immunological / Multi-omics Data  
+→ Preprocessing & Quality Control  
+→ TCR Repertoire Analysis  
+→ Motif & Sequence Feature Discovery  
+→ Clonality & Diversity Modeling  
+→ Multi-omics Integration  
+→ Biological Interpretation (Cancer, Viral, Transplant Immunology)
 
 ---
 
-## 🚀 Getting Started
+# 🧩 Active Projects
 
-Clone any repository and install dependencies:
+## 🧫 TCR Analysis Studies
+
+- CMV & EBV CDR3 Length Study  
+https://github.com/ImmunoSystemsLab/CMV_EBV_TCR_TRBV_CDR3LengthStudy  
+→ Analysis of CDR3 length distribution across viral-specific TCR repertoires.
+
+- TCR Motif & Amino Acid Properties Study  
+https://github.com/ImmunoSystemsLab/CMV_EBV_TCR_Motif_AAPropertiesStudy  
+→ Identification of motif patterns and physicochemical properties in TCR sequences.
+
+---
+
+## 🧪 Cancer Immunology & Organoid Systems
+
+- Hepatocellular Carcinoma Organoid Immunophenotyping  
+https://github.com/ImmunoSystemsLab/Hcc-Organoid-Immunophenotyping  
+→ Immune profiling of tumor organoid systems to study tumor–immune interactions.
+
+---
+
+## 🌱 Comparative & Translational Immunology
+
+- Comparative Transplant Transcriptomics  
+https://github.com/ImmunoSystemsLab/Comparative-Transplant-Transcriptomics  
+→ Cross-condition transcriptomic analysis in transplant immunology models.
+
+---
+
+# ⚙️ Infrastructure
+
+- .github organization repository  
+→ CI/CD workflows, issue templates, and shared automation tools for reproducible research.
+
+---
+
+# 🔬 How Everything Connects
+
+Each repository represents a modular component of a unified immunological analysis system:
+
+- TCR structure and sequence data → feature extraction  
+- Motif discovery → antigen specificity signals  
+- Diversity and clonality models → immune state representation  
+- Multi-omics integration → system-level biological context  
+- Cancer and transplant models → functional validation
+
+Together, they form a computational framework for systems immunology.
+
+---
+
+# 📊 Reproducibility Principles
+
+All projects follow consistent scientific and computational standards:
+
+- Fully reproducible analysis pipelines  
+- Environment management (pip / conda)  
+- Version-controlled workflows  
+- Clear data preprocessing steps  
+- Separated analysis and visualization layers  
+- Documented computational assumptions  
+
+---
+
+# 🚀 Getting Started
+
+To explore any project:
 
 ```bash
 git clone https://github.com/ImmunoSystemsLab/<repo-name>.git
